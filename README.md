@@ -2,6 +2,8 @@
 
 A small Python utility to switch the Creality Ender‑3 V3 Plus Creality OS display from Chinese to English over SSH.
 
+Inspired by the works of Cyril Guislain have a look at their work [here](https://github.com/Guilouz)
+
 Please Star the project if you like it, thanks.
 
 ## 🖥️ Overview
@@ -27,6 +29,12 @@ Some Ender‑3 V3 Plus units ship with a Chinese‑only Creality OS build. Th
 > – SoC: Ingenic X2000E  
 
 ## 🚀 Installation
+**Note:** 
+Before proceeding with this guide, make sure that root access is enabled on your Ender3 V3 Plus 3D printer.
+You can find detailed instructions on how to do this on Guislain's Wiki [here](https://guilouz.github.io/Creality-Helper-Script-Wiki/firmwares/install-and-update-rooted-firmware-ender3/#:~:text=config/system_config.json-,Enable%20Root%20Access,-Note)
+
+You would need to use google translate to find your way arround for this step.
+In addtion the computer you are running this script on and the 3D printer must be on the same Wi-Fi network.
 
 1. Clone this repo:
 
@@ -43,12 +51,12 @@ Some Ender‑3 V3 Plus units ship with a Chinese‑only Creality OS build. Th
 
 ## 💻 Usage
 
-```bash
-python set_printer_language.py \
-  --host   192.168.1.123 \
-  --user   root \
-  --password Creality2023
-```
+   ```bash
+   python set_printer_language.py \
+     --host   192.168.1.123 \
+     --user   root \
+     --password Creality2023
+   ```
 
 * `--host`      Printer IP or hostname
 * `--user`      SSH username (usually `root`)
@@ -57,15 +65,15 @@ python set_printer_language.py \
 
 Example output:
 
-```
-→ Backing up JSON …
-✔ Backup created → /usr/data/creality/userdata/config/system_config.json.bak.20250729140530
-→ Downloading JSON …
-→ Modifying language …
-→ Uploading modified JSON …
-→ Restarting UI …
-✅ Done! Screen should reload in English.
-```
+   ```
+   → Backing up JSON …
+   ✔ Backup created → /usr/data/creality/userdata/config/system_config.json.bak.20250729140530
+   → Downloading JSON …
+   → Modifying language …
+   → Uploading modified JSON …
+   → Restarting UI …
+    Done! Screen should reload in English.
+   ```
 
 ## 🔍 What’s inside?
 
