@@ -29,10 +29,11 @@ Some Ender‑3 V3 Plus units ship with a Chinese‑only Creality OS build. Th
 ## 🚀 Installation
 
 1. Clone this repo:
+
    ```bash
-   git clone https://github.com/Amha-Endrayes/ender3v3-plus-language-switcher.git
-   cd ender3v3-plus-language-switcher
-```
+      git clone https://github.com/Amha-Endrayes/ender3v3-plus-language-switcher.git
+      cd ender3v3-plus-language-switcher
+   ```
 
 2. Install dependencies:
 
