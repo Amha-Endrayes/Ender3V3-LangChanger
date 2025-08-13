@@ -4,7 +4,11 @@ A small Python utility to switch the Creality Ender‑3 V3 Plus Creality OS 
 
 Inspired by the works of Cyril Guislain have a look at their work [here](https://github.com/Guilouz)
 
+Made for one of my Friends that was having an issues with a Creality 3D printer they bought.
+Thank you Nati, for the opportunity to work on this project 
+
 Please Star the project if you like it, thanks.
+
 
 ## 🖥️ Overview
 
